@@ -2,9 +2,19 @@
   "name": "tailblocks_theme",
   "private": true,
   "scripts": {
-    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'"
+    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'",
+    "build": "npx tailwindcss build -i assets/src/css/styles.css -o assets/dist/css/styles.css",
+    "watch": "npx tailwindcss -i assets/src/css/styles.css -o assets/dist/css/styles.css --watch"
   },
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.13",
+    "autoprefixer": "^10.4.19",
+    "livereload": "^0.9.3",
+    "postcss": "^8.4.38",
+    "postcss-import": "^16.1.0",
+    "postcss-nested": "^6.0.1",
+    "tailwindcss": "^3.4.4"
   }
 }
