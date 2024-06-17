@@ -1,0 +1,5 @@
+name: Content
+props:
+  type: object
+  additionalProperties: false
+  properties: {}
