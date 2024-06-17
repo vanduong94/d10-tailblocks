@@ -1,0 +1,5 @@
+name: Testimonial
+props:
+  type: object
+  additionalProperties: false
+  properties: {}
