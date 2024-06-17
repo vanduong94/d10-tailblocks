@@ -56,8 +56,8 @@ web/sites/*/settings.local.php
 # ------------------------------------------------------------------
 /drush/Commands/contrib/
 /web/core/
-/web/modules/composer/
-/web/themes/composer/
+/web/modules/contrib/
+/web/themes/contrib/
 /web/profiles/composer/
 # /web/libraries/
 /web/private/scripts/quicksilver
