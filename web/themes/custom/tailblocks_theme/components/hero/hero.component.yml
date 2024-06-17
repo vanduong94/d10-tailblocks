@@ -1,0 +1,5 @@
+name: Hero
+props:
+  type: object
+  additionalProperties: false
+  properties: {}
