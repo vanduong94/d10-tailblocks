@@ -1,0 +1,22 @@
+uuid: e1184f90-e63e-4e1d-b6e2-4112f58c0605
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tailblocks_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: tailblocks_theme_messages
+theme: tailblocks_theme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

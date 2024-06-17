@@ -1,0 +1,10 @@
+uuid: 0db1c6dc-3638-4c10-a9c9-eba452a161b5
+langcode: en
+status: true
+dependencies: {  }
+id: two_column_content
+label: 'Two column content'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

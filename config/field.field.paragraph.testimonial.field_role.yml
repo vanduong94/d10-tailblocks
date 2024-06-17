@@ -1,0 +1,19 @@
+uuid: d220d26b-0002-42d8-bcbf-9dec52c07b2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_role
+    - paragraphs.paragraphs_type.testimonial
+id: paragraph.testimonial.field_role
+field_name: field_role
+entity_type: paragraph
+bundle: testimonial
+label: Role
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

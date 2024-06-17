@@ -1,0 +1,20 @@
+uuid: 06551cac-9373-4482-8fa9-f53084e2d3c2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - tailblocks_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: tailblocks_theme_page_title
+theme: tailblocks_theme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

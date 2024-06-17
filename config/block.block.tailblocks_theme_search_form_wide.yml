@@ -1,0 +1,23 @@
+uuid: a43c57b4-836d-4b60-bfb2-a5d536930d3c
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - tailblocks_theme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: tailblocks_theme_search_form_wide
+theme: tailblocks_theme
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

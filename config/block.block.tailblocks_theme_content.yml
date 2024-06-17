@@ -1,0 +1,22 @@
+uuid: d85b0f7c-c1c0-4fc5-9be0-b76e80e67807
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tailblocks_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tailblocks_theme_content
+theme: tailblocks_theme
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

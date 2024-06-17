@@ -1,0 +1,37 @@
+uuid: 059bd21a-86fe-4fc7-b05f-808207571ed4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column_content
+    - paragraphs.paragraphs_type.content
+    - paragraphs.paragraphs_type.two_column_content
+  module:
+    - entity_reference_revisions
+id: paragraph.two_column_content.field_column_content
+field_name: field_column_content
+entity_type: paragraph
+bundle: two_column_content
+label: 'Column content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      content: content
+    negate: 0
+    target_bundles_drag_drop:
+      content:
+        weight: 4
+        enabled: true
+      hero:
+        weight: 5
+        enabled: false
+      two_column_content:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions
